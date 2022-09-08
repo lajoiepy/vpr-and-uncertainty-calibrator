@@ -1,0 +1,22 @@
+---
+vpr_head: netvlad
+samples_folder: data/training_set/
+evaluation_folder: data/evaluation_set/
+models_path: models/
+results_folder: results/netvlad-out-mobilenet/
+use_cpu: false
+use_outliers: true
+batch_size: 4
+nb_epochs: 10
+lr: 0.0001
+lr_step: 5
+lr_gamma: 0.5
+weight_decay: 0.001
+momentum: 0.9
+margin: 0.1
+min_tuned_image_distance: 100
+resume_checkpoint: ""
+backbone_model: mobilenetv3
+seed: 123
+evaluate_on_other_dataset: true
+evaluation_subsampling_rate: 10

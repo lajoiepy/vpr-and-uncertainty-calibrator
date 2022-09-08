@@ -1,0 +1,10 @@
+---
+vpr_head: uncertainty
+use_cpu: true
+dataset_name: kitti360-00-samples
+evaluation_folder: ../selfsup-results/2nd-version/kitti-360-09-samples/
+resume_checkpoint: models/uncertainty-out-mobilenet/checkpoints/checkpoint.pth.tar
+results_folder: ../selfsup-results/2nd-version/kitti-360-09-samples/
+backbone_model: mobilenetv3
+seed: 123
+evaluation_subsampling_rate: 10
