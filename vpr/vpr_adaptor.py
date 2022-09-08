@@ -161,8 +161,6 @@ class VPRAdaptator(object):
 
         os.makedirs(self.save_path)
 
-        whole_train_set = dataset.get_whole_training_set()
-
         self.evaluate("initial")
         for epoch in range(self.config["nb_epochs"]):
             self.trainer.scheduler_step(epoch)

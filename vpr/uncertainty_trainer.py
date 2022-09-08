@@ -34,7 +34,6 @@ from vpr.uncertainty import Uncertainty
 #from vpr.gem import ImageRetrievalNet
 from vpr.bayesian_triplet_loss import BayesianTripletLoss, KLDivergenceLoss
 import glob
-import vpr.pittsburgh as dataset
 
 
 class UncertaintyTrainer(object):
