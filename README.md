@@ -1,4 +1,4 @@
-This repo aims to calibrate Visual Place Recognition network to a target environment and provide uncertainty estimation. For more details look [our paper](http://arxiv.org/abs/2203.04446)
+This repo aims to calibrate Visual Place Recognition network to a target environment and provide uncertainty estimation. For more details look at [our paper](http://arxiv.org/abs/2203.04446)
 
 If you use the code in this repository please cite:
 ```
@@ -32,10 +32,10 @@ Change the values in the config files to match your system.
 
 - `uncertainty_training.py` : Train an uncertainty estimator.
 
-- `uncertainty_evaluation.py` : Example of a evaluation only (no training) use of this repository.
+- `uncertainty_evaluation.py` : Example of a evaluation only (no training).
 
 Don't hesitate to extend this repository with different configurations.
 
 # Acknowledgement
 
-Inspired from [https://github.com/Nanne/pytorch-NetVlad](https://github.com/Nanne/pytorch-NetVlad), please use [my repo](https://github.com/lajoiepy/pytorch-NetVlad) to train NetVLAD from scratch and produce PCA pkl.
+Partially inspired from [https://github.com/Nanne/pytorch-NetVlad](https://github.com/Nanne/pytorch-NetVlad), please use [my fork](https://github.com/lajoiepy/pytorch-NetVlad) if you want to train NetVLAD from scratch and produce PCA pkl.
